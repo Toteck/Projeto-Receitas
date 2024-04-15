@@ -2,7 +2,7 @@ import React from "react";
 
 function ListaReceitas({ title, calories, image, ingredients }) {
   return (
-    <div>
+    <div className="get-receita">
       <h1>{title}</h1>
       <ul>
         {ingredients.map((ingredient, index) => (
